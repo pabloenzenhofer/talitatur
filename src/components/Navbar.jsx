@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
-import { Menu, X, Plane } from 'lucide-react';
+import { Menu, X } from 'lucide-react';
+import logoImg from '../assets/imagen talita tur.png';
 
 const Navbar = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -29,11 +30,8 @@ const Navbar = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center">
           {/* Logo */}
-          <div className="flex items-center gap-2">
-            <Plane className="h-8 w-8 text-primary" />
-            <span className="font-bold text-2xl tracking-tight text-primary-dark">
-              Talita Tur
-            </span>
+          <div className="flex items-center">
+            <img src={logoImg} alt="Talita Tur Logo" className="h-14 w-auto" />
           </div>
 
           {/* Desktop Navigation */}

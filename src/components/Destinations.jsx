@@ -1,47 +1,54 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 
+import barilocheImg from '../assets/bariloche.jpg';
+import mendozaImg from '../assets/mendoza.jpg';
+import iguazuImg from '../assets/cataratas del iguazu.jpg';
+import ushuaiaImg from '../assets/usuhaia.jpg';
+import saltaImg from '../assets/salta.jpg';
+import buziosImg from '../assets/buzios.jpg';
+
 const destinations = [
   {
     id: 1,
     name: 'Bariloche',
     description: 'Montañas, lagos y el mejor chocolate. Ideal para desconectar.',
-    image: 'https://images.unsplash.com/photo-1518331647614-7a1f04cd34fc?q=80&w=800&auto=format&fit=crop',
+    image: barilocheImg,
     price: 'Consultar',
   },
   {
     id: 2,
     name: 'Mendoza',
     description: 'Ruta del vino, montañas y gastronomía de primer nivel.',
-    image: 'https://images.unsplash.com/photo-1598462725206-4bba3831b017?q=80&w=800&auto=format&fit=crop',
+    image: mendozaImg,
     price: 'Consultar',
   },
   {
     id: 3,
     name: 'Cataratas del Iguazú',
     description: 'Una de las 7 maravillas del mundo natural. Pura energía.',
-    image: 'https://images.unsplash.com/photo-1616035076110-333e6181f33d?q=80&w=800&auto=format&fit=crop',
+    image: iguazuImg,
     price: 'Consultar',
   },
   {
     id: 4,
     name: 'Ushuaia',
     description: 'El fin del mundo te espera con paisajes de película.',
-    image: 'https://images.unsplash.com/photo-1603681491763-7c70c0c6609f?q=80&w=800&auto=format&fit=crop',
+    image: ushuaiaImg,
     price: 'Consultar',
   },
   {
     id: 5,
     name: 'Salta',
     description: 'Cerros de colores, peñas y la mejor calidez norteña.',
-    image: 'https://images.unsplash.com/photo-1617462061218-a6d8d6f5195d?q=80&w=800&auto=format&fit=crop',
+    image: saltaImg,
     price: 'Consultar',
   },
   {
     id: 6,
     name: 'Buzios, Brasil',
     description: 'Playas paradisíacas y aguas cristalinas a un vuelo de distancia.',
-    image: 'https://images.unsplash.com/photo-1615598167733-5e7fb0f82d0d?q=80&w=800&auto=format&fit=crop',
+    image: buziosImg,
     price: 'Consultar',
   }
 ];
