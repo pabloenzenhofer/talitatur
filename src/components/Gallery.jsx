@@ -6,7 +6,7 @@ const images = [
   { id: 2, src: 'https://images.unsplash.com/photo-1506929562872-bb421503ef21?q=80&w=800&auto=format&fit=crop', colSpan: 'col-span-1', rowSpan: 'row-span-1' },
   { id: 3, src: 'https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?q=80&w=800&auto=format&fit=crop', colSpan: 'col-span-1', rowSpan: 'row-span-1' },
   { id: 4, src: 'https://images.unsplash.com/photo-1454496522488-7a8e488e8606?q=80&w=800&auto=format&fit=crop', colSpan: 'col-span-1', rowSpan: 'row-span-1' },
-  { id: 5, src: 'https://images.unsplash.com/photo-1533105079780-92b9be482077?q=80&w=800&auto=format&fit=crop', colSpan: 'col-span-1 md:col-span-2', rowSpan: 'row-span-1' },
+  { id: 5, src: 'https://images.unsplash.com/photo-1533105079780-92b9be482077?q=80&w=800&auto=format&fit=crop', colSpan: 'col-span-1', rowSpan: 'row-span-1' },
 ];
 
 const Gallery = () => {
