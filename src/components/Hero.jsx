@@ -59,16 +59,6 @@ const Hero = () => {
             Explorar destinos
             <MapPin className="w-5 h-5 group-hover:animate-bounce" />
           </a>
-          
-          <a 
-            href="https://wa.me/1234567890" // Placeholder, user will change this
-            target="_blank"
-            rel="noopener noreferrer"
-            className="w-full sm:w-auto bg-transparent hover:bg-white/10 text-white border-2 border-white px-8 py-4 rounded-full font-medium transition-all flex items-center justify-center gap-2"
-          >
-            Hablar por WhatsApp
-            <MessageCircle className="w-5 h-5" />
-          </a>
         </motion.div>
       </div>
       
