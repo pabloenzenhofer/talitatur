@@ -4,7 +4,7 @@ import { motion } from 'framer-motion';
 const FloatingWhatsApp = () => {
   return (
     <motion.a
-      href="https://wa.me/1234567890" // Placeholder, user will change this
+      href="https://wa.me/5493433001251"
       target="_blank"
       rel="noopener noreferrer"
       initial={{ scale: 0 }}
