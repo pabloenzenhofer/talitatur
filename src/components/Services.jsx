@@ -1,49 +1,31 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { Plane, Map, Building, PlaneTakeoff, Package, Clock, Video } from 'lucide-react';
+import { Map, PlaneTakeoff, Package, Headset } from 'lucide-react';
 
 const servicesList = [
   {
     id: 1,
-    title: 'Paquetes internacionales',
-    description: 'Viajá por el mundo con opciones adaptadas a tu presupuesto.',
-    icon: Plane,
-  },
-  {
-    id: 2,
-    title: 'Viajes nacionales y regionales',
-    description: 'Descubrí destinos cercanos con propuestas flexibles y accesibles.',
+    title: 'Viajes internacionales, nacionales y regionales',
+    description: 'Descubrí el mundo o destinos cercanos con opciones adaptadas a tu presupuesto.',
     icon: Map,
   },
   {
-    id: 3,
-    title: 'Hoteles al mejor precio',
-    description: 'Encontramos el alojamiento ideal según tu estilo de viaje.',
-    icon: Building,
-  },
-  {
-    id: 4,
-    title: 'Vuelos económicos',
-    description: 'Te ayudamos a conseguir las mejores tarifas y combinaciones.',
+    id: 2,
+    title: 'Hoteles y vuelos',
+    description: 'Encontramos el alojamiento ideal y conseguimos las mejores tarifas aéreas.',
     icon: PlaneTakeoff,
   },
   {
-    id: 5,
+    id: 3,
     title: 'Paquetes a medida',
-    description: 'Armamos tu viaje personalizado, según tus fechas y preferencias.',
+    description: 'Armamos tu viaje personalizado, de principio a fin, según tus fechas y preferencias.',
     icon: Package,
   },
   {
-    id: 6,
-    title: 'Asesoramiento 24/7',
-    description: 'Te acompañamos en todo momento, antes y durante tu viaje.',
-    icon: Clock,
-  },
-  {
-    id: 7,
-    title: 'Atención por videollamada',
-    description: 'Conocenos y resolvé tus dudas con total confianza.',
-    icon: Video,
+    id: 4,
+    title: 'Asesoramiento 24/7 y videollamadas',
+    description: 'Te acompañamos en todo momento. Conocenos y resolvé tus dudas con total confianza.',
+    icon: Headset,
   }
 ];
 
