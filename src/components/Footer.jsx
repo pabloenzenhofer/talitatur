@@ -57,7 +57,7 @@ const Footer = () => {
             <ul className="space-y-4">
               <li className="flex items-start gap-3">
                 <MapPin className="w-5 h-5 text-primary-light mt-1 flex-shrink-0" />
-                <span className="text-white/70">La RIOJA 459 8VO A – Paraná Entre Ríos</span>
+                <span className="text-white/70">La Rioja 459, 8vo A – Paraná, Entre Ríos</span>
               </li>
               <li className="flex items-center gap-3">
                 <Phone className="w-5 h-5 text-primary-light flex-shrink-0" />
