@@ -31,7 +31,7 @@ const Footer = () => {
               Agencia de viajes dedicada a crear experiencias inolvidables, adaptadas a tu estilo y presupuesto.
             </p>
             <div className="flex space-x-4">
-              <a href="https://www.instagram.com/marieltome26" target="_blank" rel="noopener noreferrer" className="text-white/70 hover:text-white transition-colors bg-white/10 p-2 rounded-full hover:bg-white/20">
+              <a href="https://www.instagram.com/talitatur84" target="_blank" rel="noopener noreferrer" className="text-white/70 hover:text-white transition-colors bg-white/10 p-2 rounded-full hover:bg-white/20">
                 <InstagramIcon />
               </a>
               <a href="#" className="text-white/70 hover:text-white transition-colors bg-white/10 p-2 rounded-full hover:bg-white/20">

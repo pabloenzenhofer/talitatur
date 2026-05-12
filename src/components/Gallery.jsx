@@ -44,7 +44,7 @@ const Gallery = () => {
         
         <div className="text-center mt-12">
           <a 
-            href="https://www.instagram.com/marieltome26" 
+            href="https://www.instagram.com/talitatur84" 
             target="_blank" 
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 text-primary hover:text-primary-dark font-medium transition-colors"
